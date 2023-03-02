@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="hikaru-module-system:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/hikaru_module_system_jar</output-path>
+    <root id="archive" name="hikaru-module-system.jar">
+      <element id="module-output" name="hikaru-module-system" />
+    </root>
+  </artifact>
+</component>
