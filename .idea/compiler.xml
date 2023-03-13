@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="hikaru-gateway" />
+        <module name="hikaru-common" />
       </profile>
     </annotationProcessing>
   </component>

@@ -8,9 +8,10 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/hikaru-framework/pom.xml" />
         <option value="$PROJECT_DIR$/hikaru-gateway/pom.xml" />
         <option value="$PROJECT_DIR$/hikaru-module-system/pom.xml" />
+        <option value="$PROJECT_DIR$/hikaru-common/pom.xml" />
+        <option value="$PROJECT_DIR$/hikaru-framework/hikaru-common/pom.xml" />
       </list>
     </option>
   </component>
