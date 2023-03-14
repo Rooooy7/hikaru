@@ -12,6 +12,7 @@
         <option value="$PROJECT_DIR$/hikaru-module-system/pom.xml" />
         <option value="$PROJECT_DIR$/hikaru-common/pom.xml" />
         <option value="$PROJECT_DIR$/hikaru-framework/hikaru-common/pom.xml" />
+        <option value="$PROJECT_DIR$/hikaru-module-system/hikaru-module-system-api/pom.xml" />
       </list>
     </option>
   </component>

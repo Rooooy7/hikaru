@@ -9,6 +9,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="hikaru-gateway" />
         <module name="hikaru-common" />
+        <module name="hikaru-module-system-api" />
+        <module name="hikaru-module-system-business" />
       </profile>
     </annotationProcessing>
   </component>
