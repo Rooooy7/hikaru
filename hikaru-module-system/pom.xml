@@ -4,6 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <modules>
         <module>hikaru-module-system-business</module>
+        <module>hikaru-module-system-api</module>
     </modules>
     <parent>
         <groupId>com.floating</groupId>
@@ -17,15 +18,4 @@
     <description>hikaru-module-system</description>
     <packaging>pom</packaging>
 
-    <dependencies>
-        <dependency>
-            <groupId>cn.hutool</groupId>
-            <artifactId>hutool-all</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.poi</groupId>
-            <artifactId>poi-ooxml</artifactId>
-            <version>4.1.2</version>
-        </dependency>
-    </dependencies>
 </project>
