@@ -23,7 +23,6 @@
         <dependency>
             <groupId>com.floating</groupId>
             <artifactId>hikaru-common</artifactId>
-            <version>${revision}</version>
         </dependency>
 
         <dependency>

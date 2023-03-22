@@ -20,6 +20,10 @@
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>com.floating</groupId>
+            <artifactId>hikaru-common</artifactId>
+        </dependency>
         <!-- Web 相关 -->
         <dependency>
             <groupId>io.swagger</groupId>

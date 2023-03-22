@@ -2,6 +2,7 @@ package com.floating.hikaru.module.system.service.auth;
 
 import com.floating.hikaru.module.system.controller.admin.auth.vo.AuthLoginReqVO;
 import com.floating.hikaru.module.system.controller.admin.auth.vo.AuthLoginRespVO;
+import com.floating.hikaru.module.system.dal.dataobject.user.AdminUserDO;
 
 import javax.validation.Valid;
 
@@ -9,8 +10,6 @@ import javax.validation.Valid;
  * 管理后台的认证 Service 接口
  *
  * 提供用户的登录、登出的能力
- *
- * @author 芋道源码
  */
 public interface AdminAuthService {
 
@@ -21,7 +20,7 @@ public interface AdminAuthService {
      * @param password 密码
      * @return 用户
      */
-//    AdminUserDO authenticate(String username, String password);
+    AdminUserDO authenticate(String username, String password);
 
     /**
      * 账号登录

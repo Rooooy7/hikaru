@@ -16,6 +16,8 @@
 
     <modules>
         <module>hikaru-common</module>
+        <module>hikaru-framework-mybatis</module>
+        <module>hikaru-framework-web</module>
     </modules>
 
 </project>

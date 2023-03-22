@@ -10,9 +10,14 @@
         <module name="hikaru-gateway" />
         <module name="hikaru-common" />
         <module name="hikaru-module-system-api" />
+        <module name="hikaru-framework-mybatis" />
         <module name="hikaru-module-system-business" />
+        <module name="hikaru-framework-web" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="hikaru-mybatis" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">

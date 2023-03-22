@@ -71,6 +71,12 @@
             <artifactId>spring-cloud-starter-bootstrap</artifactId>
         </dependency>
 
+        <!-- DB 相关 -->
+        <dependency>
+            <groupId>com.floating</groupId>
+            <artifactId>hikaru-framework-mybatis</artifactId>
+        </dependency>
+
         <!-- RPC 远程调用相关 -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
@@ -106,7 +112,6 @@
         <dependency>
             <groupId>com.floating</groupId>
             <artifactId>hikaru-common</artifactId>
-            <version>${revision}</version>
         </dependency>
         <dependency>
             <groupId>com.floating</groupId>

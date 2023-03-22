@@ -109,6 +109,11 @@
 
             <!-- Web 相关 -->
             <dependency>
+                <groupId>com.floating</groupId>
+                <artifactId>hikaru-framework-web</artifactId>
+                <version>${revision}</version>
+            </dependency>
+            <dependency>
                 <groupId>com.github.xiaoymin</groupId>
                 <artifactId>knife4j-openapi2-spring-boot-starter</artifactId>
                 <version>${knife4j.version}</version>
@@ -134,6 +139,11 @@
             </dependency>
 
             <!-- DB 相关 -->
+            <dependency>
+                <groupId>com.floating</groupId>
+                <artifactId>hikaru-framework-mybatis</artifactId>
+                <version>${revision}</version>
+            </dependency>
             <dependency>
                 <groupId>com.alibaba</groupId>
                 <artifactId>druid-spring-boot-starter</artifactId>
@@ -318,6 +328,12 @@
             <!-- 工作流相关结束 -->
 
             <!-- 工具类相关 -->
+            <dependency>
+                <groupId>com.floating</groupId>
+                <artifactId>hikaru-common</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
             <dependency>
                 <groupId>org.projectlombok</groupId>
                 <artifactId>lombok</artifactId>
