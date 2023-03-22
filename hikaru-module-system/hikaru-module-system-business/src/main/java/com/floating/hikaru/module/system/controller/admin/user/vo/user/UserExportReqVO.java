@@ -17,10 +17,10 @@ import java.time.LocalDateTime;
 @AllArgsConstructor
 public class UserExportReqVO {
 
-    @ApiModelProperty(value = "用户账号", example = "yudao", notes = "模糊匹配")
+    @ApiModelProperty(value = "用户账号", example = "admin", notes = "模糊匹配")
     private String username;
 
-    @ApiModelProperty(value = "手机号码", example = "yudao", notes = "模糊匹配")
+    @ApiModelProperty(value = "手机号码", example = "pwd", notes = "模糊匹配")
     private String mobile;
 
     @ApiModelProperty(value = "展示状态", example = "1", notes = "参见 CommonStatusEnum 枚举类")

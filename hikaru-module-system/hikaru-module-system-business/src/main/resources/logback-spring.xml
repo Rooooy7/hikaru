@@ -1,8 +1,8 @@
 <configuration>
     <!-- 引用 Spring Boot 的 logback 基础配置 -->
     <include resource="org/springframework/boot/logging/logback/defaults.xml" />
-    <!-- 变量 yudao.info.base-package，基础业务包 -->
-    <springProperty scope="context" name="yudao.info.base-package" source="yudao.info.base-package"/>
+    <!-- 变量 hikaru.info.base-package，基础业务包 -->
+    <springProperty scope="context" name="hikaru.info.base-package" source="hikaru.info.base-package"/>
     <!-- 格式化输出：%d 表示日期，%X{tid} SkWalking 链路追踪编号，%thread 表示线程名，%-5level：级别从左显示 5 个字符宽度，%msg：日志消息，%n是换行符 -->
     <property name="PATTERN_DEFAULT" value="%d{${LOG_DATEFORMAT_PATTERN:-yyyy-MM-dd HH:mm:ss.SSS}} ${LOG_LEVEL_PATTERN:-%5p} ${PID:- } --- [%thread] [%tid] %-40.40logger{39} : %m%n${LOG_EXCEPTION_CONVERSION_WORD:-%wEx}"/>
 

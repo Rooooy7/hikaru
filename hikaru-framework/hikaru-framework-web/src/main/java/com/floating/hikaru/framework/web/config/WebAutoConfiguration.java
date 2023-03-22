@@ -123,7 +123,7 @@ public class WebAutoConfiguration implements WebMvcConfigurer {
      * 创建 DemoFilter Bean，演示模式
      */
     @Bean
-    @ConditionalOnProperty(value = "yudao.demo", havingValue = "true")
+    @ConditionalOnProperty(value = "hikaru.demo", havingValue = "true")
     public FilterRegistrationBean<DemoFilter> demoFilter() {
         return createFilterBean(new DemoFilter(), WebFilterOrderEnum.DEMO_FILTER);
     }
@@ -148,7 +148,7 @@ public class WebAutoConfiguration implements WebMvcConfigurer {
     @Bean
     @ConditionalOnMissingBean(name = "xssJacksonCustomizer")
     @ConditionalOnBean(ObjectMapper.class)
-    @ConditionalOnProperty(value = "yudao.xss.enable", havingValue = "true")
+    @ConditionalOnProperty(value = "hikaru.xss.enable", havingValue = "true")
     public Jackson2ObjectMapperBuilderCustomizer xssJacksonCustomizer(XssCleaner xssCleaner) {
         // 在反序列化时进行 xss 过滤，可以替换使用 XssStringJsonSerializer，在序列化时进行处理
         return builder -> builder.deserializerByType(String.class, new XssStringJsonDeserializer(xssCleaner));

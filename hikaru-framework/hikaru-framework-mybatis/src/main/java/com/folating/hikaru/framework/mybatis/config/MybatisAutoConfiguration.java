@@ -22,7 +22,7 @@ import org.springframework.core.env.ConfigurableEnvironment;
  * MyBaits 配置类
  */
 @AutoConfiguration
-@MapperScan(value = "${yudao.info.base-package}", annotationClass = Mapper.class,
+@MapperScan(value = "${hikaru.info.base-package}", annotationClass = Mapper.class,
         lazyInitialization = "${mybatis.lazy-initialization:false}") // Mapper 懒加载，目前仅用于单元测试
 public class MybatisAutoConfiguration {
 
