@@ -10,9 +10,17 @@
     </parent>
 
     <artifactId>hikaru-framework</artifactId>
-    <version>${revision}</version>
     <name>hikaru-framework</name>
     <description>hikaru-framework</description>
     <packaging>pom</packaging>
+
+    <modules>
+        <module>hikaru-common</module>
+        <module>hikaru-framework-mybatis</module>
+        <module>hikaru-framework-web</module>
+        <module>hikaru-framework-env</module>
+        <module>hikaru-framework-rpc</module>
+        <module>hikaru-framework-monitor</module>
+    </modules>
 
 </project>
