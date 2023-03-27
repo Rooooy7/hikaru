@@ -154,7 +154,6 @@ public class WebAutoConfiguration implements WebMvcConfigurer {
         return builder -> builder.deserializerByType(String.class, new XssStringJsonDeserializer(xssCleaner));
     }
 
-
     private static <T extends Filter> FilterRegistrationBean<T> createFilterBean(T filter, Integer order) {
         FilterRegistrationBean<T> bean = new FilterRegistrationBean<>(filter);
         bean.setOrder(order);

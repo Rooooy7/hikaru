@@ -18,6 +18,9 @@
         <module>hikaru-common</module>
         <module>hikaru-framework-mybatis</module>
         <module>hikaru-framework-web</module>
+        <module>hikaru-framework-env</module>
+        <module>hikaru-framework-rpc</module>
+        <module>hikaru-framework-monitor</module>
     </modules>
 
 </project>

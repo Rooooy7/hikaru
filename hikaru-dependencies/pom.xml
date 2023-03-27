@@ -107,6 +107,12 @@
                 <version>${spring.boot.version}</version>
             </dependency>
 
+            <dependency>
+                <groupId>com.floating</groupId>
+                <artifactId>hikaru-framework-env</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
             <!-- Web 相关 -->
             <dependency>
                 <groupId>com.floating</groupId>
@@ -172,6 +178,11 @@
             </dependency>
 
             <!-- RPC 远程调用相关 -->
+            <dependency>
+                <groupId>com.floating</groupId>
+                <artifactId>hikaru-framework-rpc</artifactId>
+                <version>${revision}</version>
+            </dependency>
             <dependency>
                 <groupId>org.apache.dubbo</groupId>
                 <artifactId>dubbo-common</artifactId> <!-- 兜底，保证在不引入 spring-cloud-starter-dubbo 时，注解等不报错 -->
@@ -510,6 +521,13 @@
                         <artifactId>hutool-core</artifactId>
                     </exclusion>
                 </exclusions>
+            </dependency>
+
+            <!-- 监控相关 -->
+            <dependency>
+                <groupId>com.floating</groupId>
+                <artifactId>hikaru-framework-monitor</artifactId>
+                <version>${revision}</version>
             </dependency>
 
         </dependencies>

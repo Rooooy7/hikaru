@@ -110,7 +110,11 @@ spring:
         url: http://127.0.0.1:${server.port}/${spring.boot.admin.context-path} # 设置 Spring Boot Admin Server 地址
         instance:
           prefer-ip: true # 注册实例时，优先使用 IP
-
+  # 本地测试用的登录账号
+  security:
+    user:
+      name: admin
+      password: 123456
 # 日志文件配置
 logging:
   level:
