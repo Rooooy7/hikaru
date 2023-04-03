@@ -1,4 +1,4 @@
-package com.folating.hikaru.framework.mybatis.core.mapper;
+package com.floating.hikaru.framework.mybatis.core.mapper;
 
 import com.baomidou.mybatisplus.core.conditions.Wrapper;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
@@ -9,7 +9,7 @@ import com.baomidou.mybatisplus.core.toolkit.support.SFunction;
 import com.baomidou.mybatisplus.extension.toolkit.Db;
 import com.floating.hikaru.framework.common.pojo.PageParam;
 import com.floating.hikaru.framework.common.pojo.PageResult;
-import com.folating.hikaru.framework.mybatis.core.util.MyBatisUtils;
+import com.floating.hikaru.framework.mybatis.core.util.MyBatisUtils;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.Collection;

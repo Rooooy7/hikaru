@@ -1,4 +1,4 @@
-package com.folating.hikaru.framework.mybatis.core.enums;
+package com.floating.hikaru.framework.mybatis.core.enums;
 
 import com.baomidou.mybatisplus.annotation.DbType;
 

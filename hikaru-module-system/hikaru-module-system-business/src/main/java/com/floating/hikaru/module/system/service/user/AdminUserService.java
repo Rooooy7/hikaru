@@ -29,4 +29,5 @@ public interface AdminUserService {
      */
     boolean isPasswordMatch(String rawPassword, String encodedPassword);
 
+    String createUser(String str);
 }

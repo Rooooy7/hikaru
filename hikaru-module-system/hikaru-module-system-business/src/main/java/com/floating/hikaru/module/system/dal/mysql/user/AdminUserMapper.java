@@ -5,8 +5,8 @@ import com.floating.hikaru.framework.common.pojo.PageResult;
 import com.floating.hikaru.module.system.controller.admin.user.vo.user.UserExportReqVO;
 import com.floating.hikaru.module.system.controller.admin.user.vo.user.UserPageReqVO;
 import com.floating.hikaru.module.system.dal.dataobject.user.AdminUserDO;
-import com.folating.hikaru.framework.mybatis.core.mapper.BaseMapperX;
-import com.folating.hikaru.framework.mybatis.core.query.LambdaQueryWrapperX;
+import com.floating.hikaru.framework.mybatis.core.mapper.BaseMapperX;
+import com.floating.hikaru.framework.mybatis.core.query.LambdaQueryWrapperX;
 import org.apache.ibatis.annotations.Mapper;
 
 import java.util.Collection;

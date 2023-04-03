@@ -1,4 +1,4 @@
-package com.folating.hikaru.framework.mybatis.core.type;
+package com.floating.hikaru.framework.mybatis.core.type;
 
 import com.baomidou.mybatisplus.extension.handlers.AbstractJsonTypeHandler;
 import com.fasterxml.jackson.core.type.TypeReference;

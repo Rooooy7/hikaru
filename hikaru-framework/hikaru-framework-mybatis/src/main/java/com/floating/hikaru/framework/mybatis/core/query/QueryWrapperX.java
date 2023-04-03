@@ -1,10 +1,10 @@
-package com.folating.hikaru.framework.mybatis.core.query;
+package com.floating.hikaru.framework.mybatis.core.query;
 
 import cn.hutool.core.lang.Assert;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.toolkit.ArrayUtils;
 import com.baomidou.mybatisplus.core.toolkit.CollectionUtils;
-import com.folating.hikaru.framework.mybatis.core.enums.SqlConstants;
+import com.floating.hikaru.framework.mybatis.core.enums.SqlConstants;
 import org.springframework.util.StringUtils;
 
 import java.util.Collection;

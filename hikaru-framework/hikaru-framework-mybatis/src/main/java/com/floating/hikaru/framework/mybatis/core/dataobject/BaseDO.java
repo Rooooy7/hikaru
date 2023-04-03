@@ -1,4 +1,4 @@
-package com.folating.hikaru.framework.mybatis.core.dataobject;
+package com.floating.hikaru.framework.mybatis.core.dataobject;
 
 import com.baomidou.mybatisplus.annotation.FieldFill;
 import com.baomidou.mybatisplus.annotation.TableField;

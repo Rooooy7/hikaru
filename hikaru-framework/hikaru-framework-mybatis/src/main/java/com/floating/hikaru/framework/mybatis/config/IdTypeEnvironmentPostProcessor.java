@@ -1,11 +1,11 @@
-package com.folating.hikaru.framework.mybatis.config;
+package com.floating.hikaru.framework.mybatis.config;
 
 import cn.hutool.core.util.StrUtil;
 import com.baomidou.mybatisplus.annotation.DbType;
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.floating.hikaru.framework.common.util.collection.SetUtils;
-import com.folating.hikaru.framework.mybatis.core.enums.SqlConstants;
-import com.folating.hikaru.framework.mybatis.core.util.JdbcUtils;
+import com.floating.hikaru.framework.mybatis.core.enums.SqlConstants;
+import com.floating.hikaru.framework.mybatis.core.util.JdbcUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.env.EnvironmentPostProcessor;

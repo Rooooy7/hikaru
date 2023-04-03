@@ -3,8 +3,8 @@ package com.floating.hikaru.module.system.dal.mysql.oauth2;
 import com.floating.hikaru.framework.common.pojo.PageResult;
 import com.floating.hikaru.module.system.controller.admin.oauth2.vo.token.OAuth2AccessTokenPageReqVO;
 import com.floating.hikaru.module.system.dal.dataobject.oauth2.OAuth2AccessTokenDO;
-import com.folating.hikaru.framework.mybatis.core.mapper.BaseMapperX;
-import com.folating.hikaru.framework.mybatis.core.query.LambdaQueryWrapperX;
+import com.floating.hikaru.framework.mybatis.core.mapper.BaseMapperX;
+import com.floating.hikaru.framework.mybatis.core.query.LambdaQueryWrapperX;
 import org.apache.ibatis.annotations.Mapper;
 
 import java.time.LocalDateTime;

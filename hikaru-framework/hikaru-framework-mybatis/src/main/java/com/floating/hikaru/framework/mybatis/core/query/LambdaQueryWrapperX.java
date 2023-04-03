@@ -1,4 +1,4 @@
-package com.folating.hikaru.framework.mybatis.core.query;
+package com.floating.hikaru.framework.mybatis.core.query;
 
 import cn.hutool.core.util.ArrayUtil;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;

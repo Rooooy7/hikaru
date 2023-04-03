@@ -4,6 +4,7 @@ import com.floating.hikaru.framework.common.pojo.CommonResult;
 import com.floating.hikaru.module.system.controller.admin.auth.vo.AuthLoginReqVO;
 import com.floating.hikaru.module.system.controller.admin.auth.vo.AuthLoginRespVO;
 import com.floating.hikaru.module.system.service.auth.AdminAuthService;
+import com.floating.hikaru.module.system.service.user.AdminUserService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
@@ -26,6 +27,9 @@ public class AuthController {
     @Resource
     private AdminAuthService authService;
 
+    @Resource
+    private AdminUserService userService;
+
     @PostMapping("/login")
     @PermitAll
     @ApiOperation("使用账号密码登录")
@@ -37,6 +41,6 @@ public class AuthController {
     @GetMapping("/test")
     @PermitAll
     public CommonResult<String> test(@RequestParam String str) {
-        return success(str);
+        return success(userService.createUser(str));
     }
 }

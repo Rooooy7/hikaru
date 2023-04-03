@@ -1,8 +1,8 @@
-package com.folating.hikaru.framework.mybatis.core.handler;
+package com.floating.hikaru.framework.mybatis.core.handler;
 
 import com.baomidou.mybatisplus.core.handlers.MetaObjectHandler;
 import com.floating.hikaru.framework.web.core.util.WebFrameworkUtils;
-import com.folating.hikaru.framework.mybatis.core.dataobject.BaseDO;
+import com.floating.hikaru.framework.mybatis.core.dataobject.BaseDO;
 import org.apache.ibatis.reflection.MetaObject;
 
 import java.time.LocalDateTime;

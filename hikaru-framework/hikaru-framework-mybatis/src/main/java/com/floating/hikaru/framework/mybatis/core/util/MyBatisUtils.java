@@ -1,4 +1,4 @@
-package com.folating.hikaru.framework.mybatis.core.util;
+package com.floating.hikaru.framework.mybatis.core.util;
 
 import cn.hutool.core.collection.CollectionUtil;
 import com.baomidou.mybatisplus.core.metadata.OrderItem;

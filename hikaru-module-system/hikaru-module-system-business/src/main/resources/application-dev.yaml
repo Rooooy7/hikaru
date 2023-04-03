@@ -39,7 +39,7 @@ spring:
       primary: master
       datasource:
         master:
-          name: ruoyi-vue-pro
+          name: hikaru
           url: jdbc:mysql://400-infra.server.iocoder.cn:3306/${spring.datasource.dynamic.datasource.master.name}?useSSL=false&allowPublicKeyRetrieval=true&useUnicode=true&characterEncoding=UTF-8&serverTimezone=CTT&nullCatalogMeansCurrent=true
           driver-class-name: com.mysql.jdbc.Driver
           username: root

@@ -1,4 +1,4 @@
-package com.folating.hikaru.framework.mybatis.core.type;
+package com.floating.hikaru.framework.mybatis.core.type;
 
 import cn.hutool.core.collection.CollUtil;
 import cn.hutool.core.util.StrUtil;

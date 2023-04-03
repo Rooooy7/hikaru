@@ -1,4 +1,4 @@
-package com.folating.hikaru.framework.mybatis.config;
+package com.floating.hikaru.framework.mybatis.config;
 
 import cn.hutool.core.util.StrUtil;
 import com.baomidou.mybatisplus.annotation.DbType;
@@ -10,7 +10,7 @@ import com.baomidou.mybatisplus.extension.incrementer.OracleKeyGenerator;
 import com.baomidou.mybatisplus.extension.incrementer.PostgreKeyGenerator;
 import com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor;
 import com.baomidou.mybatisplus.extension.plugins.inner.PaginationInnerInterceptor;
-import com.folating.hikaru.framework.mybatis.core.handler.DefaultDBFieldHandler;
+import com.floating.hikaru.framework.mybatis.core.handler.DefaultDBFieldHandler;
 import org.apache.ibatis.annotations.Mapper;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.autoconfigure.AutoConfiguration;

@@ -6,8 +6,8 @@ import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
 import com.floating.hikaru.framework.common.enums.CommonStatusEnum;
 import com.floating.hikaru.module.system.enums.common.SexEnum;
-import com.folating.hikaru.framework.mybatis.core.dataobject.BaseDO;
-import com.folating.hikaru.framework.mybatis.core.type.JsonLongSetTypeHandler;
+import com.floating.hikaru.framework.mybatis.core.dataobject.BaseDO;
+import com.floating.hikaru.framework.mybatis.core.type.JsonLongSetTypeHandler;
 import lombok.*;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 

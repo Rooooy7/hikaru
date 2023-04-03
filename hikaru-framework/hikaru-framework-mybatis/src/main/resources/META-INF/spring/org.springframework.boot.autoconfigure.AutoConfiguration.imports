@@ -1,0 +1,2 @@
+com.floating.hikaru.framework.datasource.config.DataSourceAutoConfiguration
+com.floating.hikaru.framework.mybatis.config.MybatisAutoConfiguration

@@ -1,4 +1,4 @@
-package com.folating.hikaru.framework.mybatis.core.util;
+package com.floating.hikaru.framework.mybatis.core.util;
 
 import com.baomidou.mybatisplus.annotation.DbType;
 
